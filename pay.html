@@ -22,7 +22,9 @@
         <div class="row navbar">
             <div class="col l-2 m-2 c-6">
                 <a href="index.html" style="text-decoration: none">
-                    <h1 class="logo" about=""> Cosmetics</h1>
+                    <a class="navbar-brand logo" href="index.html">
+                        <img src="11.png" alt="logo">
+                    </a>
                 </a>
             </div>
             <div class="col l-8 m-8 c-0">
@@ -593,7 +595,7 @@
 
     </div>
     <div class="footer--bottom">
-        <p class="footer-bottom__text">Copyright © Group 1 Nong Lam University</p>
+        <p class="footer-bottom__text">Copyright © Vegana</p>
     </div>
 
 
@@ -773,5 +775,52 @@
 </div>
 <script src="assets/js/showHide.js"></script>
 <script src="./assets/js/JSPay.js"></script>
+<!-- Chat Support -->
+<div class="chat-widget">
+    <div class="chat-header">
+        <span class="chat-title">Chat Support</span>
+        <div class="close-chat" onclick="toggleChat()">×</div>
+    </div>
+    <div class="chat-body">
+        <div class="chat-message">
+            <p>Welcome to our website! How can we assist you today?</p>
+        </div>
+    </div>
+    <div class="chat-footer">
+        <input type="text" id="chat-input" placeholder="Type your message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+</div>
+
+<!-- Chat Support Script -->
+<script>
+    function toggleChat() {
+        var chatWidget = document.querySelector('.chat-widget');
+        chatWidget.classList.toggle('closed');
+    }
+
+    function sendMessage() {
+        var userInput = document.getElementById('chat-input').value;
+        var chatBody = document.querySelector('.chat-body');
+
+        // Display user message
+        var userMessage = document.createElement('div');
+        userMessage.className = 'chat-message user';
+        userMessage.innerHTML = '<p>' + userInput + '</p>';
+        chatBody.appendChild(userMessage);
+
+        // Simulate a delayed response from support
+        setTimeout(function() {
+            var supportMessage = document.createElement('div');
+            supportMessage.className = 'chat-message';
+            supportMessage.innerHTML = '<p>Thank you for reaching out! We are here to help.</p>';
+            chatBody.appendChild(supportMessage);
+        }, 1000);
+
+        // Clear input field
+        document.getElementById('chat-input').value = '';
+    }
+</script>
+
 </body>
 </html>

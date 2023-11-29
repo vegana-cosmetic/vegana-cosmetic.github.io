@@ -443,7 +443,7 @@ h1{
 }
 .footer__contact, .footer__follow{
     list-style-type: none;
-    text-align: center;
+    text-align: left;
 }
 .footer__contact-link{
     text-decoration: none;
@@ -1795,9 +1795,9 @@ select.auth-form__input:hover {
 .product-comment__content-wrapper {
     width: 100%;
     margin: 8px 0;
-    font-size: 28px;
+    font-size: 20px;
     color: var(--text-color);
-    font-family: 'Tangerine', cursive;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 500;
 }
 
@@ -1831,7 +1831,7 @@ select.auth-form__input:hover {
     border: 1px solid var(--border-color);
     outline: none;
     font-weight: 300;
-    font-family: 'Tangerine', cursive;
+    font-family: 'Open Sans', Arial, sans-serif;
     text-align: left;
 }
 
@@ -2350,7 +2350,7 @@ select.auth-form__input:hover {
     color: var(--white-color);
     margin-left: 12%;
     line-height: 2.5;
-    font-family: 'Tangerine', cursive;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 600;
 }
 
@@ -2782,7 +2782,7 @@ select.auth-form__input:hover {
 }
 .branch-item li{
     list-style-type: none;
-    text-align: center;
+    text-align: left;
     font-family: -webkit-pictograph;
     font-size: 17px;
 }

@@ -1,6 +1,6 @@
 
-const xValues1 = ["Ordinary", "Body Oil", "Face Masks", "Make Up", "Hair Care", "Skincare", "Tool"];
-const yValues1 = [1155, 349, 124, 434, 23, 343, 44];
+const xValues1 = ["Skincare", "HairCare", "Bodycare", "Beauty tools & Accesories"];
+const yValues1 = [1002, 250, 567, 180];
 const barColors1 = '#000';
 
 new Chart("chart1", {

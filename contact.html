@@ -116,7 +116,7 @@
                         <ul class="branch-item">
                             <li><h2>Vietnam</h2></li>
                             <li><a href="#">Address: 268 Ly Thuong Kiet,District 10</a></li>
-                             <li><a href="#">E-mail: vegana_bachkhoa@gmail.com</a></li>
+                             <li><a href="#">E-mail: vegana_q10@gmail.com</a></li>
                             <li> <a href="#">Phone : +84 707 25 01 03</a></li>
                         </ul>
                     </div>
@@ -149,7 +149,7 @@
                             </div>
                     </div>
                     <div class="col l-6 m-12 c-12 contact-map">
-                        <img src="./assets/img/contact2.jpg" alt="Map" class="img-map">
+                        <img src="./assets/img/hinh_maps.png" alt="Map" class="img-map">
                     </div>
                 </div>
             </div>
@@ -170,12 +170,12 @@
                         </a>
                         <a class="footer__contact-link" href="">
                             <li class="footer__contact-email">
-                                Email: @gmail.com
+                                Email: veganaskincare@gmail.com
                             </li>
                         </a>
                         <a class="footer__contact-link" href="">
                             <li class="footer__contact-phone">
-                                Phone: +0363275624
+                                Phone: +84 707250103
                             </li>
                         </a>
                         <img class="footer__contact-img" src="assets/img/footer-tab-1.png" alt="">
@@ -185,14 +185,14 @@
                 <div class="col l-4 m-12 c-12">
                     <ul class="footer__follow">
                         <li class="footer__contact--title">
-                            COSMETICS
+                            VEGANASKINCARE
                         </li>
                         <p class="footer__follow-text">
-                            An oasis of online beauty built
-                            <br>
-                            specifically so your new cosmetics
-                            <br>
-                            site can take everyone’s breaths away.
+                            Our mission is to provide exceptional natural skincare
+
+                            products that are eco-friendly and cruelty-free, prioritizing 
+
+                            both skin wellness and environmental care.
                         </p>
                         <div class="footer__follow-icon">
                             <a href="" class="footer__follow-icon-link">
@@ -217,11 +217,20 @@
                             COLLECTIONS
                         </li>
                         <p class="footer__follow-text">
-                            Glowing skin is a result
+                            Herbal Harmony Line
                             <br>
-                            ABCDEH Beauty – Forever Young
+                            VeganaBeauty – Forever Young 
                             <br>
-                            Pure Skin Solutions
+                        </p>
+                        <li class="footer__contact--title">
+                            Customer Service and Support
+                        </li>
+                        <p class="footer__follow-text">
+                            Purchase Support
+                            <br>
+                            <a href="policy.html" class="footer__follow-text">
+                                Return and Refund Policy
+                            </a>
                         </p>
                     </ul>
                 </div>
@@ -316,7 +325,7 @@
                         <button class="btn buttons auth-form__controls-back ">
                             BACK
                         </button>
-                        <button class="buttons">
+                        <button class="buttons" onclick="redirectToIndex()">
                             REGISTER
                         </button>
                     </div>
@@ -429,7 +438,7 @@
             <button class="buttons">Send</button>
         </div>
         <div class="stay-in-touch__form-description">
-            <p>*At vero eos et accusamus et iusto odio dignissimos</p>
+            <p>Enter your email to receive the latest updates about our collection.</p>
         </div>
         <div class="stay-in-touch__prevent">
             <input type="checkbox" value="1" id="input-checkbox-prevent">
@@ -484,6 +493,10 @@
 
         // Clear input field
         document.getElementById('chat-input').value = '';
+    }
+    function redirectToIndex() {
+        // Chuyển hướng đến trang index.html
+        window.location.href = "./admin/index.html";
     }
 </script>
 

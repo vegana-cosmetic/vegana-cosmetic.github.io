@@ -1327,10 +1327,6 @@ select.auth-form__input:hover {
         border: 1px solid var(--border-color);
         margin-right: 6px;
     }
-/**-------------------Đào Thị Thu Thảo - end-------------------*/
-
-
-/**-------------------Nguyễn Hữu Kha - start--------------------*/
 
 /* Product page */
 .product-slider {
@@ -1367,7 +1363,7 @@ select.auth-form__input:hover {
     font-size: 42px;
     color: var(--black-color);
     line-height: 2.5;
-    font-family: 'Tangerine', cursive;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 600;
 }
 /* Slider end */
@@ -1937,7 +1933,7 @@ select.auth-form__input:hover {
     letter-spacing: 0.25rem;
     color: var(--black-color);
     background-color: #FBF9F9;
-    font-family: 'Tangerine', cursive;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .cart__body, .pay__body {
@@ -2060,7 +2056,27 @@ select.auth-form__input:hover {
 .filled-cart__item-img, .pay__item-img {
     width: 100px;
     height: 100px;
-    background-image: url("../img/product/granary/kdream.jpg");
+    background-image: url("../img/hinh_vegana/dasua/rosewater.jpg");
+    background-size: contain;
+    background-position: center 0;
+    /*background-repeat: no-repeat;*/
+    border-radius: 2px;
+    /*background-color: #FBF9FA;*/
+}
+.filled-cart__item-img1, .pay__item-img1 {
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/hinh_vegana/hinhsp/thuỷ thương (3).jpg");
+    background-size: contain;
+    background-position: center 0;
+    /*background-repeat: no-repeat;*/
+    border-radius: 2px;
+    /*background-color: #FBF9FA;*/
+}
+.filled-cart__item-img2, .pay__item-img2 {
+    width: 100px;
+    height: 100px; 
+    background-image: url("../img/hinh_vegana/dasua/đã sửa (2).jpg");
     background-size: contain;
     background-position: center 0;
     /*background-repeat: no-repeat;*/
@@ -2312,7 +2328,7 @@ select.auth-form__input:hover {
     background-color: var(--black-color);
     padding: 8px 16px;
     text-align: left;
-    font-family: 'Tangerine', cursive;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .popup-confirm-pay__title {
@@ -2334,7 +2350,7 @@ select.auth-form__input:hover {
     line-height: 1.5;
     margin: 16px 0;
     text-align: center;
-    font-family: 'Tangerine', cursive;
+    font-family: 'Open Sans', Arial, sans-serif;
     display: none;
 }
 
@@ -2400,7 +2416,7 @@ select.auth-form__input:hover {
 }
 
 .about-us__info:nth-child(2) .about-us__info-img {
-    background-image: url("../img/admin_info/NguyenHuuKha2.jpg");
+    background-image: url("../img/admin_info/thanhuyen.jpg");
 }
 
 .about-us__info:nth-child(2) > a {
@@ -2412,7 +2428,7 @@ select.auth-form__input:hover {
 }
 
 .about-us__info:last-child .about-us__info-img {
-    background-image: url("../img/admin_info/TrieuHueMan2.jpg");
+    background-image: url("../img/admin_info/trang.jpg");
 }
 
 .about-us__info-content {
@@ -2680,9 +2696,7 @@ select.auth-form__input:hover {
     display: none;
 }
 
-/**---------------Nguyễn Hữu Kha - end---------------------*/
 
-/**---------------Triệu Huệ Mẩn - start--------------------*/
 /*About us*/
 .about-page{
     margin-top: 20px;
@@ -2955,5 +2969,30 @@ button {
     transform: translateY(100%);
 }
 
-/**------------------- - end-----------------------*/
+.return-policy {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+.return-policy h2,
+.return-policy h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.return-policy p,
+.return-policy li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+    line-height: 1.5; /* Add line-height for paragraphs and list items */
+}
+
+.return-policy ul, .return-policy ol {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
